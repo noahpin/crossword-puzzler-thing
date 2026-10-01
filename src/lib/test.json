@@ -18,15 +18,13 @@
       "x": 1,
       "y": 1,
       "clue": "1. Married woman shows animosity (6)",
-      "solution": "MALICE",
-      "answer": "wotcha"
+      "solution": "MALICE"
     },
     {
       "x": 8,
       "y": 1,
       "clue": "4. One's held back by a stout grating (8)",
-      "solution": "ABRASIVE",
-      "answer": "abraXive"
+      "solution": "ABRASIVE"
     },
     {
       "x": 1,
@@ -49,13 +47,13 @@
     {
       "x": 6,
       "y": 5,
-      "clue": "13. Woman who suffered capital loss in Lebanon, beaten by fluctuating yen (4,6)",
-      "solution": "ANNE BOLEYN"
+      "clue": "13. Woman who suffered capital loss in Lebanon, beaten by fluctuating yen (4-6)",
+      "solution": "ANNEBOLEYN"
     },
     {
       "x": 1,
       "y": 7,
-      "clue": "15. Start as home counties solicitor (3,3)",
+      "clue": "15. Start as home counties solicitor (3-3)",
       "solution": "SET OUT"
     },
     {
@@ -73,7 +71,7 @@
     {
       "x": 10,
       "y": 9,
-      "clue": "21. Supply outstanding artwork (6)",
+      "clue": "21. \"Supply, 2.\" (out) outstanding artwork (6)",
       "solution": "RELIEF"
     },
     {
@@ -118,8 +116,7 @@
       "x": 1,
       "y": 1,
       "clue": "1. Ordered risotto after introduction to Minnie Driver (8)",
-      "solution": "MOTORIST",
-      "answer": "woctopus"
+      "solution": "MOTORIST"
     },
     {
       "x": 3,

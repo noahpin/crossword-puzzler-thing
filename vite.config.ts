@@ -1,9 +1,16 @@
 import adapter from '@sveltejs/adapter-auto';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
+import { nodePolyfills } from 'vite-plugin-node-polyfills'
 
 export default defineConfig({
-	plugins: [
+  plugins: [
+    nodePolyfills({
+      overrides: {
+        // Prevent mapping node:module to node-stdlib-browser
+        module: 'node:module' 
+      }
+    }),
 		sveltekit({
 			compilerOptions: {
 				// Force runes mode for the project, except for libraries. Can be removed in svelte 6.
@@ -16,5 +23,11 @@ export default defineConfig({
 			// See https://svelte.dev/docs/kit/adapters for more information about adapters.
 			adapter: adapter()
 		})
-	]
+  ],
+
+  build: {
+    rollupOptions: {
+      external: ['node:module']
+    }
+  }
 });
